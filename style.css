@@ -1,0 +1,52 @@
+body {
+    background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+#start, #number_of_objects, #status {
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
+    border-radius: 20px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: gray;
+     bottom: 0; 
+     width: 100%;
+     background-color: goldenrod; 
+     line-height: 3;
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     font-family: 'Comic Neue', cursive;
+}
+.copy_right_footer:hover {
+    font-size: 30px;
+}
+canvas {
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+   
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    from{box-shadow: 5px 5px 5px yellow;}
+    to{box-shadow: 5px 5px 5px red;}
+}
+
+#start:hover {
+    font-size: 40px;
+    background-color: goldenrod;
+}
